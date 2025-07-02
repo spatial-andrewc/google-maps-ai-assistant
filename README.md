@@ -2,7 +2,8 @@
 
 ### Overview
 
-A small and scrappy app to explore a couple of technologies I've been interested in. These are Langgraph, OpenAI Agents SDK, and Playwright. This app uses Playwright to login to a user's Google account and add's AI generated recommendations to places in a Google Maps saved list. The recommendations are specific to the user based on information saved in their traveller profile.
+A small and scrappy app to explore a few technologies I've been interested in. These are Langgraph, OpenAI Agents SDK, and Playwright. This app uses Playwright to login to a user's Google account and add's AI generated recommendations to places in a Google Maps saved list (interestingly, Google doesn't expose an API for Saved Places). The recommendations are specific to the user based on information saved in their traveller profile.
+
 
 A fun next step would be to make the browser automation add recommended locations to the user's map as new saved locations.
 
