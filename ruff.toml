@@ -1,0 +1,21 @@
+line-length = 110
+
+[lint]
+select = [
+  "B",  # flake8 bugbear
+  "ERA",  # flake8 eradicate
+  "T20",  # flake8 print
+  "E",  # pycodestyle errors
+  "F",  # pyflakes
+  "C901",  # flake8 complexity
+  "W",  # pycodestyle warnings
+  "I001",  # isort
+  "S",  # bandit
+  "C",  # flake8-comprehensions
+]
+ignore = []
+fixable = ["ALL"]
+per-file-ignores = { "tests/**" = ["S"], "**/tests/**" = ["S"] }
+
+[format]
+quote-style = "double"
